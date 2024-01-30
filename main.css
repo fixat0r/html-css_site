@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    body{
+        background-image: linear-gradient(to right, rgb(39, 38, 38),rgb(49, 47, 47));
+    }
+.logo{
+    font-family:'Inconsolata', monospace;
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+    float: left;
+}
+ul{
+    font-size: 20px;
+    font-family: 'Nunito Sans', monospace;
+    color: white;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding-top: 32px;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    margin-right: 16px;
+    display: inline;
+}
+a:hover{
+    color: aqua;
+}
+.logo:hover{
+    color: white;
+}
+.contentIndex{
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(103, 197, 192);
+    line-height: 380px;
+    background-image: url(Materials/street-art.jpg);
+    background-repeat: round;
+    min-height: 1300px;
+    
+}
+.pTwoIndex{
+    color: white;
+}
+.contentIndex p{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+footer{
+    
+    text-align: center;
+    height: auto;
+    color: rgb(133, 133, 133);
+    background-color: rgb(59, 59, 59);
+}
+.imgFooter{
+    max-height: 100px;
+}
+.contentGallery{
+    text-align: center;
+    display: inline-block;
+
+}
+.contentGallery img{
+    max-width: 700px;
+    max-height: 750px;
+    margin-top: 30px;
+}
+.contentGallery p{
+    color: rgb(58, 121, 100);
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.contentAbout{
+    min-height: 900px;
+}
+.contentAbout p{
+    font-size: 25px;
+    margin-left: 15px;
+    padding: 0 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+.reviews{
+    margin: 3%;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 150px;
+}
+.reviewsOne{
+    height: 550px;
+    background-color: rgb(179, 179, 179);
+    width: 30%;
+    border-radius: 16px;
+}
+.reviewsOne p{
+    margin: 0px;
+}
+.reviewsTwo{
+    height: 550px;
+    background-color: rgb(179, 179, 179);
+    width: 30%;
+    border-radius: 16px;
+}
+.reviewsTwo p{
+    margin: 0px;
+}
+.reviewsThree{
+    height: 550px;
+    background-color: rgb(179, 179, 179);
+    width: 30%;
+    border-radius: 16px;
+}
+.reviewsThree p{
+    margin: 0px;
+}
+.tet{
+    font-family: 'Courier New', Courier, monospace;
+}
+.FooterImage{
+    width: 3.5%;
+    height: 3.5%;
+}
